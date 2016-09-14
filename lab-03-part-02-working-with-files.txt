@@ -81,7 +81,8 @@ Output: baz.txt	foo.txt
 
 Write the command that you used to move the file.  Copy and paste the output of your file listing below.
 ----------
-
+Command: mv foo.txt qux.txt
+Output: baz.txt	qux.txt
 
 
 ==========
@@ -96,7 +97,8 @@ Write the command that you used to move the file.  Copy and paste the output of 
 
 Write out the command that you used and what happened.
 ----------
-
+Command: rmdir my-files/
+Result: rmdir: my-files/: Directory not empty
 
 
 ==========
@@ -104,7 +106,8 @@ Write out the command that you used and what happened.
 
 Write out the command that you used and what happened.
 ----------
-
+Command: rm my-files/
+Result: rm: my-files/: is a directory
 
 
 ==========
@@ -126,7 +129,7 @@ Use the command called cat on the file to show its contents.
 
 Describe what happened below.
 ----------
-
+The book "The Prince" was printed out in it's entirety. 
 
 
 ==========
