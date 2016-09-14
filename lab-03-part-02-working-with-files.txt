@@ -141,7 +141,8 @@ Use the command, head, on the file to show the contents of the beginning of the 
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
-
+Command: head books/other/pg1232.txt 
+Output (last line): Title: The Prince
 
 
 ==========
@@ -153,7 +154,8 @@ Use tail on the file to show the contents of the end of the file.
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
-
+Command: tail books/other/pg1232.txt
+Output: 
 
 
 ==========
