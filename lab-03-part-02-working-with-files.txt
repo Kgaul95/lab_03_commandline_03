@@ -167,7 +167,8 @@ Use less and more on the file to show the contents of the file.  Try pressing sp
 
 Write the command that you used below.  Describe what spacebar and q does after using either less or more.
 ----------
-
+Command: more books/other/pg1232.txt 
+less books/other/pg1232.txt
 
 
 ==========
@@ -181,9 +182,12 @@ Write the command that you used below.  Describe what spacebar and q does after 
 ==========
 21.  How many words are in pg1232.txt?  What command did you use to determine the word count?
 ----------
-
+Words: 52639
+Command: wc -w books/other/pg1232.txt 
 
 
 ==========
 22.  How many lines are in pg1232.txt?  What command did you use to determine the line count?
 ----------
+Lines: 5063
+Command: wc -l books/other/pg1232.txt 
