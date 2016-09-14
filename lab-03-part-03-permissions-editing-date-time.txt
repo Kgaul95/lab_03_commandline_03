@@ -82,7 +82,7 @@ $ ./copy_to_backup.sh
 
 What command did you use to try to execute the file?  What happens?
 ----------
-
+Nothing happens
 
 
 ==========
@@ -90,7 +90,7 @@ What command did you use to try to execute the file?  What happens?
 
 What command did you use to do this?
 ----------
-
+Command: nano copy_to_backup.sh.
 
 
 ==========
@@ -102,7 +102,10 @@ c. print out "I'm done backing up"
 
 Write out the code in your file below...
 ----------
-
+#!/bin/bash
+mkdir -p ~/backup
+cp copy_to_backup.sh.txt ~/backup
+# Prints "I'm done backing up"
 
 
 ==========
