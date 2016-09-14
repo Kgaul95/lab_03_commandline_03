@@ -104,7 +104,7 @@ Write out the code in your file below...
 ----------
 #!/bin/bash
 mkdir -p ~/backup
-cp copy_to_backup.sh.txt ~/backup
+cp *.txt backup
 # Prints "I'm done backing up"
 
 
@@ -116,15 +116,16 @@ cp copy_to_backup.sh.txt ~/backup
 
 What commands did you use to do this?
 ----------
-
-
+Commands:
+touch 1.txt
+touch 2.txt
 
 ==========
 12. Move the script that you created into this directory.
 
 What commands did you use to do this?
 ----------
-
+Command: mv copy_to_backup.sh. test
 
 
 ==========
@@ -132,7 +133,7 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
-
+Command: ./copy_to_backup.sh
 
 
 ==========
