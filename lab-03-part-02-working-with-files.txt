@@ -63,7 +63,8 @@ total 0
 
 Write the command that you used to copy the file.  Additionally, copy and paste the output of your file listing below.
 ----------
-
+Command: cp bar.txt baz.txt
+Output: bar.txt	baz.txt	foo.txt
 
 
 ==========
@@ -71,6 +72,9 @@ Write the command that you used to copy the file.  Additionally, copy and paste 
 
 Write the command that you used to remove the file.  Copy and paste the output of your file listing below.
 ----------
+Command: rm bar.txt
+Output: baz.txt	foo.txt
+
 ==========
 11. Move the file called foo.txt to qux.txt and then list the files again.
 
