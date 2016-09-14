@@ -17,7 +17,8 @@ We're going to be writing a shell script.  First, though... let's figure out wha
 
 What command did you use, and what was its output?
 ----------
-
+Command: date
+Output: Wed Sep 14 12:27:32 EDT 2016
 
 
 ==========
@@ -25,7 +26,15 @@ What command did you use, and what was its output?
 
 What command did you use, and what was its output?
 ----------
-
+Command: cal
+Output:    
+September 2016
+Su Mo Tu We Th Fr Sa
+             1  2  3
+ 4  5  6  7  8  9 10
+11 12 13 14 15 16 17
+18 19 20 21 22 23 24
+25 26 27 28 29 30
 
 
 ==========
@@ -33,7 +42,7 @@ What command did you use, and what was its output?
 
 What commands did you use to do this?
 ----------
-
+Commands: cd ~, pwd
 
 
 ==========
@@ -41,15 +50,17 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
-
-
+Commands:
+touch copy_to_backup.sh.
+ls
 
 ==========
 5. What are the permissions on your copy_to_backup.sh.
 
 What command did you use to find the permissions?
 ----------
-
+Permissions: User-Read & Write, Group-Read, World-Read
+Command: ls -l copy_to_backup.sh.
 
 
 ==========
@@ -57,7 +68,11 @@ What command did you use to find the permissions?
 
 What commands did you use to do this?  What was the output?
 ----------
+Commands:
+chmod u+x copy_to_backup.sh.
+ls -l copy_to_backup.sh.
 
+Output: -rwxr--r--  1 student  staff  0 Sep 14 12:30 copy_to_backup.sh.
 
 
 ==========
